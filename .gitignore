@@ -1,0 +1,6 @@
+.gradle
+.settings
+kls_database.db
+build
+bukkit/build
+core/build
