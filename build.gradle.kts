@@ -62,5 +62,5 @@ dependencies {
 	implementation("org.xerial:sqlite-jdbc:3.51.3.0")
 	implementation("com.mysql:mysql-connector-j:9.6.0")
 	implementation("org.postgresql:postgresql:42.7.10")
-	implementation("com.zaxxer:HikariCP:4.0.3")
+	implementation("com.zaxxer:HikariCP:5.0.0")
 }
