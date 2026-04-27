@@ -33,7 +33,7 @@ minecraft = "26.1"
 architectury = "19.0.1"
 
 # fabric
-fabric-loom = "1.15-SNAPSHOT"
+fabric-loom = "1.16.1"
 fabric-loader = "0.19.2"
 
 # neoforge
