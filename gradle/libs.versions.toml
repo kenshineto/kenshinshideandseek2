@@ -32,7 +32,7 @@ placeholderapi = "2.12.2"
 minecraft = "26.1.2"
 architectury = "19.0.1"
 architectury-loom = "1.14-SNAPSHOT"
-architectury-plugin = "3.5-SNAPSHOT"
+architectury-plugin = "3.5.166"
 
 # fabric
 fabric-loader = "0.19.2"
