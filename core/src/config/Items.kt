@@ -103,14 +103,16 @@ data class KhsItemsConfig(
     fun migrate() {
         var nextHiderSlot = 0u
         for (item in hiderItems) {
-            if (item.slot == null) item.slot = nextHiderSlot
-            nextHiderSlot = maxOf(nextHiderSlot, item.slot!!) + 1u
+            val currentSlot = item.slot ?: nextHiderSlot
+            item.slot = currentSlot
+            nextHiderSlot = maxOf(nextHiderSlot, currentSlot) + 1u
         }
 
         var nextSeekerSlot = 0u
         for (item in seekerItems) {
-            if (item.slot == null) item.slot = nextSeekerSlot
-            nextSeekerSlot = maxOf(nextSeekerSlot, item.slot!!) + 1u
+            val currentSlot = item.slot ?: nextSeekerSlot
+            item.slot = currentSlot
+            nextSeekerSlot = maxOf(nextSeekerSlot, currentSlot) + 1u
         }
     }
 }
