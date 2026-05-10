@@ -4,6 +4,15 @@ This plugin supports software such as [PlaceholderAPI](https://placeholderapi.co
 
 A placeholder is a string such as `%hs_team%`, which in this case returns what team you are on
 
+#### Game Information
+
+The following placeholders can be used to get information about the current state of the game lobby:
+- `%hs_status%` - Returns the current status of the game (Waiting, Starting, In-game, Ending).
+- `%hs_players%` - Returns the total number of players currently in the lobby/game.
+- `%hs_minplayers%` - Returns the minimum number of players required to start the countdown.
+- `%hs_maxplayers%` - Returns the maximum number of players allowed in the lobby.
+- `%hs_map%` - Returns the name of the current map.
+
 #### Teams
 
 The following teams: `hiders`, `seekers`, and `spectators` can be used in `%hs_<team>%` to get
