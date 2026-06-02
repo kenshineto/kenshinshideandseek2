@@ -35,7 +35,7 @@ architectury-loom = "1.14-SNAPSHOT"
 architectury-plugin = "3.5-SNAPSHOT"
 
 # fabric
-fabric-loader = "0.19.2"
+fabric-loader = "0.19.3"
 
 # neoforge
 neoforge = "26.1.2.43-beta"
