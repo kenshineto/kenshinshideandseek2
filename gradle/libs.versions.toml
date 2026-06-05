@@ -30,7 +30,7 @@ placeholderapi = "2.12.2"
 
 # modding
 minecraft = "26.1.2"
-architectury = "20.0.4"
+architectury = "20.0.5"
 architectury-loom = "1.14-SNAPSHOT"
 architectury-plugin = "3.5-SNAPSHOT"
 
